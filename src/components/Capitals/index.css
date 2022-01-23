@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.capital {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  height: 30%;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .capital {
+    margin: 80px;
+    height: auto;
+    border-radius: 18px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+  }
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+.select-capital-question-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.select-capital {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  font-weight: 500px;
+  height: 18px;
+  width: auto;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .select-capital {
+    font-size: 22px;
+    height: 28px;
+    width: auto;
+    border: 2px solid #cbd2d9;
+    border-radius: 4px;
+  }
+}
+.option {
+  color: #323f4b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 22px;
+  }
+}
+.question {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .question {
+    font-size: 22px;
+  }
+}
+.country {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .country {
+    font-size: 26px;
+  }
+}
